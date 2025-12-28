@@ -1,0 +1,8 @@
+docs/raw/
+
+# Images in books
+docs/books/**/*.jpg
+docs/books/**/*.jpeg
+docs/books/**/*.png
+docs/books/**/*.gif
+docs/books/**/*.webp
