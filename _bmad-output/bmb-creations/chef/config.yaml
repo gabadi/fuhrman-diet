@@ -1,0 +1,12 @@
+# Chef Module Configuration
+# Configuration for the Fuhrman Kosher Kitchen Assistant workflows
+# Date: 2025-12-28
+
+# Core Configuration Values
+user_name: Gabadi
+communication_language: English professional, but for non-native speakers
+document_output_language: English
+
+# Chef Module Paths
+sidecar_path: "{project-root}/_bmad-output/bmb-creations/chef/chef-sidecar"
+workflows_path: "{project-root}/_bmad-output/bmb-creations/chef/workflows"
