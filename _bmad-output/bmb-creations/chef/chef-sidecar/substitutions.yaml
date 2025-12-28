@@ -1,0 +1,24 @@
+# Miriam - Ingredient Substitutions
+# For when ingredients are unavailable in Argentina
+
+substitutions:
+  - ingredient: kale
+    alternatives: [spinach, collard-greens, swiss-chard]
+    notes: "Any dark leafy green works"
+
+  - ingredient: tahini
+    alternatives: [sunflower-seed-butter, cashew-butter]
+    notes: "Similar consistency, different flavor"
+
+  - ingredient: nutritional-yeast
+    alternatives: []
+    notes: "No good substitute for cheesy flavor"
+    unavailable_action: skip_or_omit
+
+  - ingredient: collard-greens
+    alternatives: [kale, swiss-chard, spinach]
+    notes: "Texture differs but nutrition similar"
+
+  - ingredient: maple-syrup
+    alternatives: [date-paste, mashed-banana]
+    notes: "For Fuhrman-compliant sweetness"
