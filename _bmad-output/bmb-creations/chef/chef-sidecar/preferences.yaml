@@ -1,0 +1,47 @@
+# Miriam - User Preferences
+# Last updated: 2025-12-28
+
+user_name: Gabadi
+family_size: 1
+location: argentina
+
+kosher_standards:
+  accepted_hechshers: [OU, OK, Star-K, local-AR]
+  meat_dairy_wait_hours: 6
+  chalav_yisrael: false
+  pas_yisrael: false
+  kitniyot_on_pesach: false
+
+taste:
+  loves: [mushrooms, kale, berries]
+  dislikes: [eggplant, beets]
+  allergies: []
+
+limitations:
+  equipment:
+    missing: [food-processor]
+    available: [blender, oven, stovetop]
+  techniques:
+    avoid: [deep-frying]
+  ingredients:
+    never_use: []
+  time:
+    max_weekday_cooking: 45
+    max_shabbat_prep: 180
+  budget:
+    awareness: true
+    level: moderate  # low / moderate / flexible
+  energy:
+    default_mode: normal  # normal / low-spoon
+
+cooking:
+  typical_weekday_time: 30
+  shabbat_cooking: true
+  complexity_preference: medium
+
+fuhrman:
+  compliance_level: strict  # strict / relaxed
+
+jewish_calendar:
+  aware: true
+  location: argentina

@@ -1,0 +1,28 @@
+# Miriam - Recipe Index
+# All recipes with metadata for filtering and recommendations
+
+recipes: []
+# Example entry:
+#  - id: kale-bean-stew
+#    file: kale-bean-stew.md
+#    time_minutes: 35
+#    meal_type: [lunch, dinner]
+#    kosher_category: parve
+#    g_bombs: [greens, beans, onions]
+#    complexity: low
+#    servings: 4
+#    cuisine_style: comfort
+#    audience: [family, solo]
+#    shabbat_friendly: true
+#    pesach: false
+#    attention_level: low      # low (hands-off), medium, high (active)
+#    cognitive_load: simple    # simple, moderate, complex
+#    context: []               # sweet-craving, after-dinner, etc.
+#    satisfies_craving: null   # ice-cream, chocolate, etc.
+#    ingredients: [kale, white-beans, onion, garlic, vegetable-broth]
+#    ingredients_verified: true
+#    source:
+#      type: book
+#      title: "Eat for Life"
+#      page: 234
+#    tags: [one-pot, quick]

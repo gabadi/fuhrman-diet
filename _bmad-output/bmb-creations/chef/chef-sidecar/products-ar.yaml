@@ -1,0 +1,97 @@
+# Miriam - Argentine Market Products
+# Status: verified | assumed | unavailable
+
+products:
+  # Greens
+  - name: Kale
+    category: greens
+    kosher_status: inherently_kosher
+    status: verified
+    availability: high
+    stores: [Jumbo, Carrefour, Feria]
+    price_range: "$200-400/kg"
+    season: year-round
+    last_verified: 2025-01-15
+    notes: "Check for insects"
+
+  - name: Spinach
+    category: greens
+    kosher_status: inherently_kosher
+    status: verified
+    availability: high
+    stores: [Jumbo, Carrefour, Feria]
+    season: year-round
+    notes: "Check for insects"
+
+  # Beans
+  - name: White Beans
+    category: beans
+    kosher_status: inherently_kosher
+    status: verified
+    availability: high
+    stores: [Jumbo, Carrefour]
+    notes: "Canned or dried"
+
+  - name: Black Beans
+    category: beans
+    kosher_status: inherently_kosher
+    status: verified
+    availability: high
+    stores: [Jumbo, Carrefour]
+
+  - name: Chickpeas
+    category: beans
+    kosher_status: inherently_kosher
+    status: verified
+    availability: high
+    stores: [Jumbo, Carrefour]
+
+  # Seeds & Nuts
+  - name: Tahini
+    category: seeds
+    kosher_status: certified
+    status: assumed
+    availability: unknown
+    stores: []
+    notes: "Needs verification - check hechsher"
+
+  - name: Nutritional Yeast
+    category: other
+    kosher_status: unknown
+    status: unavailable
+    notes: "Not available kosher in Argentina"
+    alternatives: []
+
+  # Fruits
+  - name: Frozen Berries
+    category: berries
+    kosher_status: inherently_kosher
+    status: verified
+    availability: high
+    stores: [Jumbo, Carrefour]
+
+  - name: Bananas
+    category: fruit
+    kosher_status: inherently_kosher
+    status: verified
+    availability: high
+    stores: [everywhere]
+
+  # Basics
+  - name: Onion
+    category: vegetables
+    kosher_status: inherently_kosher
+    status: verified
+    availability: high
+
+  - name: Garlic
+    category: vegetables
+    kosher_status: inherently_kosher
+    status: verified
+    availability: high
+
+  - name: Vegetable Broth (no salt)
+    category: other
+    kosher_status: certified
+    status: assumed
+    notes: "Check for no-salt-added versions with hechsher"

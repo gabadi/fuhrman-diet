@@ -1,0 +1,11 @@
+# Miriam - Recipe Reviews
+# Taste feedback and would-make-again tracking
+
+reviews: []
+# Example entry:
+#  - recipe_id: kale-bean-stew
+#    date: 2025-01-15
+#    rating: up  # up / down
+#    notes: "Family loved it"
+#    would_make_again: true
+#    issues: []  # [local-ingredient-problem, texture-bad, etc.]

@@ -1,0 +1,9 @@
+# Miriam - Cooking History
+# Tracks meal suggestions, cooking, and reviews
+
+meals: []
+# Example entry:
+#  - recipe_id: kale-bean-stew
+#    date: 2025-01-15
+#    status: reviewed  # suggested → cooked → reviewed | skipped
+#    cooking_notes: "Used spinach instead of kale"
