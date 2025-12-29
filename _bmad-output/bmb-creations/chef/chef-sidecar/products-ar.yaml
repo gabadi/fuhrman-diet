@@ -104,3 +104,20 @@ products:
     stores: [Jumbo]
     season: year-round
     last_verified: 2025-12-28
+
+  # Added from recipe import
+  - name: Cumin
+    category: spices
+    kosher_status: inherently_kosher
+    status: assumed
+    availability: high
+    stores: []
+    notes: "Added from recipe import"
+
+  - name: Black Pepper
+    category: spices
+    kosher_status: inherently_kosher
+    status: assumed
+    availability: high
+    stores: []
+    notes: "Added from recipe import"
