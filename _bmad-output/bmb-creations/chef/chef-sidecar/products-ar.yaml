@@ -95,3 +95,12 @@ products:
     kosher_status: certified
     status: assumed
     notes: "Check for no-salt-added versions with hechsher"
+
+  - name: Chia Seeds
+    category: seeds
+    kosher_status: inherently_kosher
+    status: verified
+    availability: high
+    stores: [Jumbo]
+    season: year-round
+    last_verified: 2025-12-28
