@@ -1,0 +1,256 @@
+# Smoothies, Blended Salads & Juices - Recipe Index
+# Category: smoothies
+# Last updated: 2025-12-29
+
+recipes:
+  - id: berry-banana-smoothie
+    file: smoothies/berry-banana-smoothie.md
+    time_minutes: 5
+    meal_type: [breakfast, snack]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: low
+    servings: 1
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [banana, soy-milk, strawberries, chia-seeds, romaine-lettuce, spinach]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [quick, portable, high-fiber]
+    added_date: 2025-12-29
+
+  - id: apple-oatberry-smoothie
+    file: smoothies/apple-oatberry-smoothie.md
+    time_minutes: 5
+    meal_type: [breakfast, snack]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [soy-milk, apple, strawberries, oats, cinnamon, chia-seeds, pine-nuts, cucumber]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [quick, filling, oats]
+    added_date: 2025-12-29
+
+  - id: super-easy-blended-salad
+    file: smoothies/super-easy-blended-salad.md
+    time_minutes: 5
+    meal_type: [breakfast, snack]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: low
+    servings: 1
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [baby-greens, orange, lemon]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [quick, minimal-ingredients, raw]
+    added_date: 2025-12-29
+
+  - id: chocolate-cherry-smoothie
+    file: smoothies/chocolate-cherry-smoothie.md
+    time_minutes: 5
+    meal_type: [breakfast, snack, dessert]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [spinach, soy-milk, pomegranate-juice, cocoa-powder, cherries, banana, blueberries, vanilla, flax-seeds]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [chocolate, antioxidant, treat]
+    added_date: 2025-12-29
+
+  - id: green-gorilla
+    file: smoothies/green-gorilla.md
+    time_minutes: 5
+    meal_type: [breakfast, snack]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [avocado, banana, romaine-lettuce, spinach]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [green, creamy, minimal-ingredients]
+    added_date: 2025-12-29
+
+  - id: boston-green-smoothie
+    file: smoothies/boston-green-smoothie.md
+    time_minutes: 5
+    meal_type: [breakfast, snack]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [boston-lettuce, pineapple, kiwi, avocado, banana]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [tropical, green, vitamin-c]
+    added_date: 2025-12-29
+
+  - id: orange-creamsicle-blended-salad
+    file: smoothies/orange-creamsicle-blended-salad.md
+    time_minutes: 5
+    meal_type: [breakfast, snack]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [soy-milk, blood-orange-vinegar, orange, romaine-lettuce, spinach, vanilla, cashews]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [creamy, citrus, dessert-like]
+    added_date: 2025-12-29
+
+  - id: purple-monster-smoothie
+    file: smoothies/purple-monster-smoothie.md
+    time_minutes: 5
+    meal_type: [breakfast, snack]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [banana, pineapple, blueberries, boston-lettuce, chia-seeds, water]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [antioxidant, colorful, kid-friendly]
+    added_date: 2025-12-29
+
+  - id: high-cruciferous-juice
+    file: smoothies/high-cruciferous-juice.md
+    time_minutes: 10
+    meal_type: [breakfast, snack]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: medium
+    servings: 2
+    shabbat_friendly: false
+    pesach: true
+    attention_level: medium
+    cognitive_load: low
+    ingredients: [carrots, cauliflower, apple, kale, watercress, broccoli]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [juice, cruciferous, anticancer, requires-juicer]
+    added_date: 2025-12-29
+
+  - id: immunity-power-juice
+    file: smoothies/immunity-power-juice.md
+    time_minutes: 10
+    meal_type: [breakfast, snack]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: medium
+    servings: 2
+    shabbat_friendly: false
+    pesach: true
+    attention_level: medium
+    cognitive_load: low
+    ingredients: [kale, carrots, bok-choy, apple, beet, lemon]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [juice, immunity, requires-juicer, contains-beets]
+    added_date: 2025-12-29
+
+  - id: detox-green-tea
+    file: smoothies/detox-green-tea.md
+    time_minutes: 15
+    meal_type: [breakfast, snack]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: false
+    pesach: true
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [kale, romaine-lettuce, cucumber, bok-choy, green-tea, raspberries, cherries, strawberries]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [juice, detox, green-tea, requires-juicer]
+    added_date: 2025-12-29
+
+  - id: pomegranate-refresher
+    file: smoothies/pomegranate-refresher.md
+    time_minutes: 5
+    meal_type: [breakfast, snack]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [pomegranate-juice, strawberries, kumquats, lemon, water]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [refreshing, light, antioxidant]
+    added_date: 2025-12-29

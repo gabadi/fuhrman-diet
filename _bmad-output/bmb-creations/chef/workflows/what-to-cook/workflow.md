@@ -57,7 +57,8 @@ All state is managed through sidecar files in the chef-sidecar folder:
 | File | Purpose |
 |------|---------|
 | `preferences.yaml` | User constraints, taste, limitations |
-| `recipes/index.yaml` | Recipe library (read-only in this workflow) |
+| `recipes/index.yaml` | Master recipe index (category list) |
+| `recipes/{category}/_index.yaml` | Per-category recipe indexes with full metadata |
 | `history.yaml` | Meal tracking (suggested → cooked → reviewed) |
 | `products-ar.yaml` | Ingredient availability in Argentina |
 | `substitutions.yaml` | Ingredient swap options |
@@ -79,8 +80,10 @@ Load and read config from `{project-root}/_bmad-output/bmb-creations/chef/config
 Load sidecar files from `{sidecar_path}`:
 
 - `preferences.yaml` - user constraints
-- `recipes/index.yaml` - recipe library
+- `recipes/index.yaml` - master index (category list)
 - `history.yaml` - pending reviews
+
+Note: Category-specific `_index.yaml` files are loaded on-demand during step 3 (recommend).
 
 ### 3. First Step Execution
 

@@ -12,7 +12,9 @@ nextStepFile: '{workflow_path}/steps/step-04-feedback.md'
 workflowFile: '{workflow_path}/workflow.md'
 
 # Sidecar References
-recipesIndexFile: '{sidecar_path}/recipes/index.yaml'
+masterIndexFile: '{sidecar_path}/recipes/index.yaml'
+recipesFolder: '{sidecar_path}/recipes'
+# Category indexes: '{sidecar_path}/recipes/{category}/_index.yaml'
 productsFile: '{sidecar_path}/products-ar.yaml'
 substitutionsFile: '{sidecar_path}/substitutions.yaml'
 preferencesFile: '{sidecar_path}/preferences.yaml'
@@ -76,12 +78,23 @@ Filter and rank recipes based on context from step 2, present top options, handl
 
 ### 1. Load Recipe Data
 
-Load and read:
-- `{recipesIndexFile}` - all recipes
+**Load master index and category indexes:**
+1. Load `{masterIndexFile}` to get list of categories
+2. For each category in master index:
+   - Try to load `{recipesFolder}/{category.id}/_index.yaml`
+   - If file exists: merge recipes into in-memory list
+   - If file missing: log warning, skip category, continue with others
+3. Track `category` for each recipe in merged list (needed for file path lookup)
+
+**Load supporting files:**
 - `{productsFile}` - ingredient availability
 - `{substitutionsFile}` - available substitutions
 - `{preferencesFile}` - user taste preferences
 - `{historyFile}` - recent meals to avoid
+
+**Result:** Single merged list of all recipes with full metadata for filtering
+
+**Error handling:** If a category `_index.yaml` is missing or corrupt, warn but continue. Never fail the entire workflow due to one missing category.
 
 ### 2. Apply Filters
 
@@ -143,8 +156,9 @@ Present separately by course:
 ### 5. Handle User Response
 
 **User selects (1/2/3 or recipe name):**
-- Show full recipe from recipes/{id}.md
-- Log to history.yaml: `{ recipe_id, date, status: suggested }`
+- Get recipe's category from the merged list (loaded in step 1)
+- Show full recipe from `{recipesFolder}/{category}/{recipe_id}.md`
+- Log to history.yaml: `{ recipe_id, category, date, status: suggested }`
 - Proceed to step 4
 
 **User says "show more" or "M":**

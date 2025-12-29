@@ -1,0 +1,445 @@
+# Miriam - Main Dishes Recipe Index
+# Full metadata for filtering and recommendations
+
+category: main-dishes
+recipes:
+  - id: thai-vegetable-curry
+    file: thai-vegetable-curry.md
+    time_minutes: 40
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, mushrooms, onions]
+    complexity: medium
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [garlic, ginger, basil, cilantro, carrot-juice, bell-pepper, eggplant, green-beans, shiitake-mushrooms, bamboo-shoots, curry, watercress, peanut-butter, tofu, coconut-milk]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [thai, curry, tofu, asian]
+    added_date: 2025-12-29
+
+  - id: asian-vegetable-stir-fry
+    file: asian-vegetable-stir-fry.md
+    time_minutes: 90
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, mushrooms, onions, seeds]
+    complexity: high
+    servings: 4
+    shabbat_friendly: false
+    pesach: false
+    attention_level: high
+    cognitive_load: complex
+    ingredients: [tofu, sesame-seeds, apricots, peanut-butter, ginger, garlic, vinegar, onion, broccoli, carrots, bell-peppers, snap-peas, bok-choy, mushrooms, spinach, cashews, rice]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [asian, stir-fry, tofu, elaborate]
+    added_date: 2025-12-29
+
+  - id: mushrooms-and-beans-over-crispy-kale
+    file: mushrooms-and-beans-over-crispy-kale.md
+    time_minutes: 40
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, mushrooms, onions]
+    complexity: medium
+    servings: 2
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [garlic, shallot, mushrooms, kidney-beans, vegetable-broth, vinegar, thyme, tomato-paste, raisins, kale]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [kale, mushrooms, beans, crispy]
+    added_date: 2025-12-29
+
+  - id: no-pasta-zucchini-lasagna
+    file: no-pasta-zucchini-lasagna.md
+    time_minutes: 75
+    meal_type: [dinner]
+    kosher_category: parve
+    g_bombs: [greens, mushrooms, onions, seeds]
+    complexity: medium
+    servings: 8
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [tofu, nutritional-yeast, lemon, shallots, garlic, basil, oregano, chia-seeds, broccoli, mushrooms, bell-peppers, spinach, zucchini, pasta-sauce]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [lasagna, italian, zucchini, no-pasta, crowd-pleaser]
+    added_date: 2025-12-29
+
+  - id: garden-stuffed-vegetables
+    file: garden-stuffed-vegetables.md
+    time_minutes: 75
+    meal_type: [dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, mushrooms, onions]
+    complexity: medium
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [zucchini, bell-peppers, portobello-mushrooms, quinoa, shiitake-mushrooms, green-onions, celery, broccoli, garlic, lentils, walnuts, raisins, parsley, pasta-sauce]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [stuffed-vegetables, quinoa, elegant]
+    added_date: 2025-12-29
+
+  - id: sicilian-stuffed-peppers
+    file: sicilian-stuffed-peppers.md
+    time_minutes: 45
+    meal_type: [dinner]
+    kosher_category: parve
+    g_bombs: [mushrooms, onions]
+    complexity: medium
+    servings: 3
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [quinoa, bell-peppers, garlic, onion, eggplant, zucchini, mushrooms, tomato-sauce, oregano, basil]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [italian, stuffed-peppers, quinoa]
+    added_date: 2025-12-29
+
+  - id: vegetable-shepherds-pie
+    file: vegetable-shepherds-pie.md
+    time_minutes: 90
+    meal_type: [dinner]
+    kosher_category: parve
+    g_bombs: [greens, mushrooms, onions]
+    complexity: medium
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [sweet-potatoes, garlic, mushrooms, broccoli, cauliflower, leek, bell-pepper, spinach, carrot-juice, tofu, hazelnuts, parsley]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [shepherds-pie, comfort, make-ahead, freezer-friendly]
+    added_date: 2025-12-29
+
+  - id: vegetable-tagine
+    file: vegetable-tagine.md
+    time_minutes: 45
+    meal_type: [dinner]
+    kosher_category: parve
+    g_bombs: [beans, onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [onion, carrots, bell-pepper, zucchini, garlic, cinnamon, turmeric, tomatoes, vegetable-stock, apricots, raisins, lemon, chickpeas, cilantro]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [moroccan, tagine, one-pot, aromatic]
+    added_date: 2025-12-29
+
+  - id: cuban-black-beans
+    file: cuban-black-beans.md
+    time_minutes: 35
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [beans, onions]
+    complexity: low
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [onion, bell-pepper, tomato-juice, black-beans, tomatoes, tomato-sauce, garlic, cumin, vinegar, cilantro]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [cuban, black-beans, latin, easy]
+    added_date: 2025-12-29
+
+  - id: channa-saag
+    file: channa-saag.md
+    time_minutes: 25
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions]
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [onion, garlic, ginger, tomatoes, coriander, garam-masala, cardamom, cinnamon, spinach, chickpeas, cayenne]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [indian, chickpeas, spinach, spicy, quick]
+    added_date: 2025-12-29
+
+  - id: california-creamed-kale
+    file: california-creamed-kale.md
+    time_minutes: 15
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, seeds]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [kale, cashews, soy-milk, onion-flakes]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [kale, creamy, quick, side-dish]
+    added_date: 2025-12-29
+
+  - id: braised-kale-and-squash-with-pumpkin-seeds
+    file: braised-kale-and-squash-with-pumpkin-seeds.md
+    time_minutes: 30
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, onions, seeds]
+    complexity: low
+    servings: 6
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [kale, butternut-squash, red-onions, garlic, balsamic-vinegar, pumpkin-seeds]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [kale, squash, fall, one-pot]
+    added_date: 2025-12-29
+
+  - id: cauliflower-and-green-pea-curry
+    file: cauliflower-and-green-pea-curry.md
+    time_minutes: 25
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [garlic, onion, carrot, ginger, curry, cumin, cauliflower, tomatoes, peas, lemon]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [indian, curry, cauliflower, quick]
+    added_date: 2025-12-29
+
+  - id: mushroom-stroganoff
+    file: mushroom-stroganoff.md
+    time_minutes: 25
+    meal_type: [dinner]
+    kosher_category: parve
+    g_bombs: [mushrooms, onions, seeds]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [onion, garlic, mushrooms, lemon, tarragon, paprika, vegetable-broth, tahini]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [stroganoff, mushrooms, creamy, comfort]
+    added_date: 2025-12-29
+
+  - id: spaghetti-squash-primavera
+    file: spaghetti-squash-primavera.md
+    time_minutes: 75
+    meal_type: [dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [spaghetti-squash, carrots, celery, garlic, cabbage, zucchini, pinto-beans, tomatoes, vegetable-broth, thyme, parsley, pasta-sauce]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [spaghetti-squash, primavera, italian, low-carb]
+    added_date: 2025-12-29
+
+  - id: mediterranean-bean-and-kale-saute
+    file: mediterranean-bean-and-kale-saute.md
+    time_minutes: 30
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, mushrooms, onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [dried-tomatoes, kale, onion, shiitake-mushrooms, garlic, beans, sherry-vinegar, dijon, pasta-sauce]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [mediterranean, kale, beans, quick]
+    added_date: 2025-12-29
+
+  - id: cremini-ratatouille
+    file: cremini-ratatouille.md
+    time_minutes: 75
+    meal_type: [dinner]
+    kosher_category: parve
+    g_bombs: [mushrooms, onions]
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [onion, garlic, tomatoes, eggplant, zucchini, cremini-mushrooms, bell-pepper, oregano, basil]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [french, ratatouille, one-pot, summer]
+    added_date: 2025-12-29
+
+  - id: thanksgiving-nonmeat-loaf
+    file: thanksgiving-nonmeat-loaf.md
+    time_minutes: 120
+    meal_type: [dinner]
+    kosher_category: parve
+    g_bombs: [mushrooms, onions]
+    complexity: medium
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: moderate
+    ingredients: [arrowroot, tofu, walnuts, onions, celery, portobello-mushrooms, oregano, basil, sage, bread-crumbs, brown-rice]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [holiday, meatloaf-alternative, thanksgiving, special-occasion]
+    added_date: 2025-12-29
+
+  - id: swiss-chard-and-beans-italiano
+    file: swiss-chard-and-beans-italiano.md
+    time_minutes: 25
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [swiss-chard, garlic, tomato-sauce, tomatoes, kidney-beans]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [italian, one-pot, quick, easy]
+    added_date: 2025-12-29
+
+  - id: brussels-sprouts-with-orange-and-walnuts
+    file: brussels-sprouts-with-orange-and-walnuts.md
+    time_minutes: 30
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [brussels-sprouts, orange-juice, walnuts, orange-zest]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [brussels-sprouts, citrus, side-dish, elegant]
+    added_date: 2025-12-29
+
+  - id: broccoli-fra-diavlo
+    file: broccoli-fra-diavlo.md
+    time_minutes: 25
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, onions]
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [broccoli, garlic, tomatoes, tomato-sauce, italian-seasoning, pepper-flakes, nutritional-yeast, paprika]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [italian, broccoli, spicy, quick]
+    added_date: 2025-12-29

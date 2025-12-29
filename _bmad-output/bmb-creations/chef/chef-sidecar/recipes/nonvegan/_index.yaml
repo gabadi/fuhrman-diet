@@ -1,0 +1,131 @@
+# Nonvegan - Recipe Index
+# Category: nonvegan
+# Recipes with eggs, fish, or meat (use sparingly - limit to 2 servings/week)
+# Last updated: 2025-12-29
+
+recipes:
+  - id: garden-eggs-and-tofu-with-salsa
+    file: nonvegan/garden-eggs-and-tofu-with-salsa.md
+    time_minutes: 20
+    meal_type: [breakfast, lunch]
+    kosher_category: parve
+    g_bombs: [greens, onions]
+    complexity: low
+    servings: 3
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: low
+    ingredients: [onion, zucchini, carrot, swiss-chard, spinach, tomato, garlic, herbes-de-provence, tofu, curry-powder, eggs, salsa, nondairy-cheese]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [eggs, scramble, vegetable-loaded]
+    added_date: 2025-12-29
+
+  - id: scrambled-veggies-and-eggs
+    file: nonvegan/scrambled-veggies-and-eggs.md
+    time_minutes: 15
+    meal_type: [breakfast, lunch]
+    kosher_category: parve
+    g_bombs: [mushrooms, greens, onions]
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: low
+    ingredients: [eggs, soy-milk, bell-pepper, green-onions, tomatoes, mushrooms, spinach, pepper]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [eggs, scramble, quick]
+    added_date: 2025-12-29
+
+  - id: mediterranean-fish-stew
+    file: nonvegan/mediterranean-fish-stew.md
+    time_minutes: 35
+    meal_type: [dinner]
+    kosher_category: fish
+    g_bombs: [mushrooms, onions]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [bell-peppers, onions, eggplant, zucchini, mushrooms, tomatoes, garlic, herbes-de-provence, pepper, fish, parsley, lemon]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [fish, stew, mediterranean, contains-eggplant]
+    added_date: 2025-12-29
+
+  - id: salmon-and-vegetables-in-a-packet
+    file: nonvegan/salmon-and-vegetables-in-a-packet.md
+    time_minutes: 35
+    meal_type: [dinner]
+    kosher_category: fish
+    g_bombs: [mushrooms, greens, onions]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: false
+    pesach: true
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [salmon, pepper, ginger, lemon, tomatoes, zucchini, mushrooms, red-onions, garlic, olive-oil, mustard-greens, swiss-chard]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [fish, salmon, packet-cooking]
+    added_date: 2025-12-29
+
+  - id: creole-chicken-and-spinach
+    file: nonvegan/creole-chicken-and-spinach.md
+    time_minutes: 25
+    meal_type: [dinner]
+    kosher_category: meat
+    g_bombs: [greens, onions]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [chicken, celery, tomatoes, spinach, green-pepper, onion, garlic, vegetable-broth, tomato-paste, basil, chili-powder, parsley, crushed-red-pepper, brown-rice, wild-rice]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [chicken, creole, southern]
+    added_date: 2025-12-29
+
+  - id: black-bean-turkey-burgers
+    file: nonvegan/black-bean-turkey-burgers.md
+    time_minutes: 40
+    meal_type: [lunch, dinner]
+    kosher_category: meat
+    g_bombs: [beans, greens, onions]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: false
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [black-beans, turkey, tomato-sauce, spinach, bread-crumbs, onion, cilantro, cumin, chili-powder]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [turkey, burger, bean-burger]
+    added_date: 2025-12-29

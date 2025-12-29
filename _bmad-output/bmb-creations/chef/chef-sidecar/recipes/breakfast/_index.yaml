@@ -1,0 +1,298 @@
+# Miriam - Breakfast Recipe Index
+# Full metadata for filtering and recommendations
+
+category: breakfast
+recipes:
+  - id: blueberry-nut-oatmeal
+    file: blueberry-nut-oatmeal.md
+    time_minutes: 15
+    meal_type: [breakfast]
+    kosher_category: parve
+    g_bombs: [berries, seeds]
+    complexity: low
+    servings: 3
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [oats, apple, currants, flax-seeds, blueberries, pecans, walnuts]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [oatmeal, quick, hearty]
+    added_date: 2025-12-29
+
+  - id: overnight-oatmeal
+    file: overnight-oatmeal.md
+    time_minutes: 5
+    meal_type: [breakfast]
+    kosher_category: parve
+    g_bombs: [berries]
+    complexity: low
+    servings: 3
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [raisins, oats, soy-milk, berries]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [no-cook, overnight, meal-prep]
+    added_date: 2025-12-29
+
+  - id: quick-banana-berry-breakfast-to-go
+    file: quick-banana-berry-breakfast-to-go.md
+    time_minutes: 5
+    meal_type: [breakfast]
+    kosher_category: parve
+    g_bombs: [berries, seeds]
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [blueberries, bananas, oats, pomegranate-juice, walnuts, sunflower-seeds, currants]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [quick, portable, microwave]
+    added_date: 2025-12-29
+
+  - id: quinoa-breakfast-pudding
+    file: quinoa-breakfast-pudding.md
+    time_minutes: 55
+    meal_type: [breakfast]
+    kosher_category: parve
+    g_bombs: [greens, seeds]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [quinoa, dates, soy-milk, vanilla, almonds, walnuts, currants, spinach, kale, cinnamon]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [quinoa, baked, hearty]
+    added_date: 2025-12-29
+
+  - id: butternut-blueberry-breakfast
+    file: butternut-blueberry-breakfast.md
+    time_minutes: 20
+    meal_type: [breakfast]
+    kosher_category: parve
+    g_bombs: [berries]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [butternut-squash, apples, cinnamon, nutmeg, blueberries, walnuts, currants]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [squash, fall, comfort]
+    added_date: 2025-12-29
+
+  - id: slow-cooker-eggplant-breakfast
+    file: slow-cooker-eggplant-breakfast.md
+    time_minutes: 420
+    meal_type: [breakfast]
+    kosher_category: parve
+    g_bombs: [beans, onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [eggplant, tomato, chickpeas, onion, apple, carrot-juice, vegetable-broth, tomato-paste, cinnamon, nutmeg]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [slow-cooker, set-and-forget, savory]
+    added_date: 2025-12-29
+
+  - id: butternut-breakfast-soup
+    file: butternut-breakfast-soup.md
+    time_minutes: 40
+    meal_type: [breakfast]
+    kosher_category: parve
+    g_bombs: [greens, onions, seeds]
+    complexity: medium
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [butternut-squash, apples, kale, vinegar, carrot-juice, onion, soy-milk, cashews, hemp-seeds, cinnamon, nutmeg]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [soup, make-ahead, creamy]
+    added_date: 2025-12-29
+
+  - id: apple-supreme
+    file: apple-supreme.md
+    time_minutes: 25
+    meal_type: [breakfast]
+    kosher_category: parve
+    g_bombs: [seeds]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [apples, cinnamon, walnuts, dates, flax-seeds, soy-milk, raisins, oats]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [baked, apple, comfort]
+    added_date: 2025-12-29
+
+  - id: fruity-breakfast-salad
+    file: fruity-breakfast-salad.md
+    time_minutes: 10
+    meal_type: [breakfast]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [boston-lettuce, fennel, cucumber, apples, walnuts, orange, cinnamon]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [salad, raw, light]
+    added_date: 2025-12-29
+
+  - id: tuscan-tofu-scramble
+    file: tuscan-tofu-scramble.md
+    time_minutes: 15
+    meal_type: [breakfast]
+    kosher_category: parve
+    g_bombs: [greens, onions]
+    complexity: low
+    servings: 2
+    shabbat_friendly: false
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [scallions, bell-pepper, tomato, garlic, tofu, nutritional-yeast, spinach]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [tofu, scramble, savory, protein]
+    added_date: 2025-12-29
+
+  - id: polenta-frittata
+    file: polenta-frittata.md
+    time_minutes: 150
+    meal_type: [breakfast]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: medium
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [garlic, kale, oregano, mustard, pepper, nutritional-yeast, cornmeal]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [polenta, make-ahead, savory]
+    added_date: 2025-12-29
+
+  - id: am-avocado-mango-lettuce-wrap
+    file: am-avocado-mango-lettuce-wrap.md
+    time_minutes: 10
+    meal_type: [breakfast]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [avocado, mango, cucumber, tomato, lime, lettuce]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [raw, wrap, fresh, quick]
+    added_date: 2025-12-29
+
+  - id: antioxidant-rich-breakfast-bars
+    file: antioxidant-rich-breakfast-bars.md
+    time_minutes: 90
+    meal_type: [breakfast, snack]
+    kosher_category: parve
+    g_bombs: [beans, berries, seeds]
+    complexity: medium
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [black-beans, banana, oats, blueberries, raisins, pomegranate-juice, dates, walnuts, goji-berries, sunflower-seeds, flax-seeds]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [bars, meal-prep, portable, antioxidant]
+    added_date: 2025-12-29
+
+  - id: berry-explosion-muffins
+    file: berry-explosion-muffins.md
+    time_minutes: 35
+    meal_type: [breakfast, snack]
+    kosher_category: parve
+    g_bombs: [beans, berries, seeds]
+    complexity: medium
+    servings: 12
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [whole-wheat-flour, almond-flour, baking-powder, chia-seeds, white-beans, dates, bananas, strawberries, vanilla, almond-extract, blueberries, raspberries]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook (Talia Fuhrman)"
+    tags: [muffins, berries, baked, meal-prep]
+    added_date: 2025-12-29

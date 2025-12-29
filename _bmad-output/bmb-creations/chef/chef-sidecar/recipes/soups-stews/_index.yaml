@@ -1,0 +1,636 @@
+# Miriam - Soups & Stews Recipe Index
+# Full metadata for filtering and recommendations
+
+category: soups-stews
+recipes:
+  - id: kale-and-white-bean-soup
+    file: kale-and-white-bean-soup.md
+    time_minutes: 30
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions]
+    complexity: low
+    servings: 4
+    cuisine_style: comfort
+    audience: [solo]
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [kale, white-beans, onion, garlic, vegetable-broth, cumin, black-pepper]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat for Life, page 287"
+    tags: [one-pot, quick, soup]
+    added_date: 2025-12-28
+
+  - id: homemade-vegetable-broth
+    file: homemade-vegetable-broth.md
+    time_minutes: 75
+    meal_type: [base]
+    kosher_category: parve
+    g_bombs: [onions, mushrooms]
+    complexity: low
+    servings: 8
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [onion, scallions, carrots, celery, mushrooms, tomatoes, garlic, bay-leaves, dill, parsley, peppercorns, oregano]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [base, broth, freezer-friendly]
+    added_date: 2025-12-29
+
+  - id: acorn-squash-stew-with-brussels-sprouts
+    file: acorn-squash-stew-with-brussels-sprouts.md
+    time_minutes: 30
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [onion, garlic, fennel, acorn-squash, brussels-sprouts, vegetable-broth, sage, rosemary, apple, apricots, kidney-beans, balsamic-vinegar]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [stew, fall, one-pot]
+    added_date: 2025-12-29
+
+  - id: black-forest-cream-of-mushroom-soup
+    file: black-forest-cream-of-mushroom-soup.md
+    time_minutes: 45
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions, mushrooms]
+    complexity: medium
+    servings: 5
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [mushrooms, garlic, herbes-de-provence, carrot-juice, hemp-milk, carrots, onion, corn, celery, leeks, cashews, lemon-juice, thyme, rosemary, white-beans, spinach, parsley]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [cream-soup, mushroom, hearty]
+    added_date: 2025-12-29
+
+  - id: broccoli-mushroom-bisque
+    file: broccoli-mushroom-bisque.md
+    time_minutes: 30
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, onions, mushrooms]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [broccoli, mushrooms, carrots, celery, onion, garlic, carrot-juice, nutmeg, cashews, pine-nuts]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [cream-soup, broccoli, quick]
+    added_date: 2025-12-29
+
+  - id: cheesy-kale-soup
+    file: cheesy-kale-soup.md
+    time_minutes: 35
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, onions, mushrooms]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [split-peas, onion, mushrooms, carrot-juice, tomato-sauce, kale, cashew-butter, nutritional-yeast]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [kale, cheesy, comfort]
+    added_date: 2025-12-29
+
+  - id: chunky-sweet-potato-stew
+    file: chunky-sweet-potato-stew.md
+    time_minutes: 30
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [beans, onions]
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [onion, garlic, tomatoes, sweet-potato, chickpeas, rosemary, zucchini]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [stew, quick, weeknight]
+    added_date: 2025-12-29
+
+  - id: quick-corn-and-bean-medley
+    file: quick-corn-and-bean-medley.md
+    time_minutes: 30
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions]
+    complexity: low
+    servings: 5
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [corn, white-beans, kidney-beans, bell-pepper, carrot, onion, garlic, potato, spinach]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [bean-soup, crock-pot-friendly, easy]
+    added_date: 2025-12-29
+
+  - id: cream-of-asparagus-soup
+    file: cream-of-asparagus-soup.md
+    time_minutes: 20
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [asparagus, soy-milk, cashews, almonds, dates, cilantro]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [cream-soup, asparagus, quick, elegant]
+    added_date: 2025-12-29
+
+  - id: creamy-zucchini-soup
+    file: creamy-zucchini-soup.md
+    time_minutes: 35
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [onion, garlic, zucchini, basil, thyme, oregano, vegetable-broth, cashews, corn, spinach]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [cream-soup, zucchini, summer]
+    added_date: 2025-12-29
+
+  - id: dr-fuhrmans-famous-anticancer-soup
+    file: dr-fuhrmans-famous-anticancer-soup.md
+    time_minutes: 120
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions, mushrooms]
+    complexity: medium
+    servings: 10
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: moderate
+    ingredients: [split-peas, zucchini, carrot-juice, celery-juice, onions, leeks, kale, cashews, mushrooms]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [signature, anticancer, batch-cooking, freezer-friendly]
+    added_date: 2025-12-29
+
+  - id: ukrainian-sweet-and-sour-cabbage-soup
+    file: ukrainian-sweet-and-sour-cabbage-soup.md
+    time_minutes: 75
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [prunes, apples, onion, carrots, soy-milk, split-peas, barley, cabbage, basil, oregano, thyme, lemon-juice, walnuts, caraway-seeds]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [eastern-european, cabbage, winter, comfort]
+    added_date: 2025-12-29
+
+  - id: french-minted-pea-soup
+    file: french-minted-pea-soup.md
+    time_minutes: 15
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, onions]
+    complexity: low
+    servings: 3
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [green-peas, onion, garlic, mint, dates, cashews, lemon-juice, romaine, chives]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [french, quick, elegant, mint]
+    added_date: 2025-12-29
+
+  - id: golden-austrian-cauliflower-cream-soup
+    file: golden-austrian-cauliflower-cream-soup.md
+    time_minutes: 25
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [cauliflower, carrots, celery, leeks, garlic, carrot-juice, nutmeg, cashews, kale]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [cream-soup, cauliflower, austrian]
+    added_date: 2025-12-29
+
+  - id: cruciferous-vegetable-stew
+    file: cruciferous-vegetable-stew.md
+    time_minutes: 100
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions, mushrooms]
+    complexity: medium
+    servings: 10
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: moderate
+    ingredients: [carrot-juice, split-peas, lentils, adzuki-beans, kale, collard-greens, broccoli, shiitake-mushrooms, celery, leeks, carrots, parsnips, onions, zucchini, garlic, tomatoes, parsley, broccoli-sprouts]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [anticancer, cruciferous, batch-cooking]
+    added_date: 2025-12-29
+
+  - id: very-veggie-stew
+    file: very-veggie-stew.md
+    time_minutes: 60
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [beans, onions, mushrooms]
+    complexity: medium
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [tomatoes, olive-oil, garlic, onion, cinnamon, coriander, zucchini, yellow-squash, bell-pepper, carrots, shiitake-mushrooms, kidney-beans, parsley, lemon-juice, almonds]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook (Talia Fuhrman)"
+    tags: [stew, family-recipe, roasted-tomato]
+    added_date: 2025-12-29
+
+  - id: persian-chickpea-stew
+    file: persian-chickpea-stew.md
+    time_minutes: 40
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [eggplant, bell-pepper, onion, zucchini, pasta-sauce, garlic, cinnamon, coriander, turmeric, carrot-juice, chickpeas, parsley, spinach]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [persian, middle-eastern, chickpea]
+    added_date: 2025-12-29
+
+  - id: shiitake-portobello-stew
+    file: shiitake-portobello-stew.md
+    time_minutes: 30
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [onions, mushrooms]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [onion, bell-pepper, rosemary, portobello-mushrooms, shiitake-mushrooms, garlic, tomato-paste, vegetable-broth, sherry-vinegar, parsley]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [mushroom, low-calorie, quick]
+    added_date: 2025-12-29
+
+  - id: shiitake-watercress-soup
+    file: shiitake-watercress-soup.md
+    time_minutes: 30
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, mushrooms]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [leeks, carrots, garlic, shiitake-mushrooms, vegetable-broth, white-beans, watercress, herbes-de-provence]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [watercress, mushroom, high-nutrient]
+    added_date: 2025-12-29
+
+  - id: tomato-bisque
+    file: tomato-bisque.md
+    time_minutes: 40
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, onions, seeds]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [carrot-juice, tomatoes, dried-tomatoes, celery, onion, leek, shallot, garlic, thyme, bay-leaf, almonds, hemp-seeds, basil, spinach]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [tomato, bisque, classic]
+    added_date: 2025-12-29
+
+  - id: three-sisters-harvest-stew
+    file: three-sisters-harvest-stew.md
+    time_minutes: 35
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions, seeds]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [onion, garlic, jalapeno, kidney-beans, bell-pepper, corn, vegetable-stock, butternut-squash, cumin, tomatoes, oregano, spinach, pumpkin-seeds]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [native-american, three-sisters, fall]
+    added_date: 2025-12-29
+
+  - id: too-busy-to-cook-vegetable-bean-soup
+    file: too-busy-to-cook-vegetable-bean-soup.md
+    time_minutes: 40
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans]
+    complexity: low
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [corn, soy-milk, kale, broccoli, oriental-vegetables, carrot-juice, beans]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [quick, frozen-vegetables, easy, weeknight]
+    added_date: 2025-12-29
+
+  - id: west-african-lentil-okra-stew
+    file: west-african-lentil-okra-stew.md
+    time_minutes: 55
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions]
+    complexity: medium
+    servings: 8
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [red-lentils, tomato-paste, peanut-butter, carrot-juice, onion, okra, kale, tomatoes, sweet-potato, garlic, chili-powder, cayenne]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [african, lentil, okra, peanut]
+    added_date: 2025-12-29
+
+  - id: tuscan-cannellini-bean-soup
+    file: tuscan-cannellini-bean-soup.md
+    time_minutes: 45
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions]
+    complexity: medium
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [dried-tomatoes, soy-milk, onion, garlic, oregano, rosemary, cannellini-beans, tomatoes, tomato-puree, vegetable-broth, collard-greens, sherry-vinegar, basil]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [italian, tuscan, bean-soup]
+    added_date: 2025-12-29
+
+  - id: yellow-lentil-dal-with-mango
+    file: yellow-lentil-dal-with-mango.md
+    time_minutes: 35
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [yellow-lentils, turmeric, onion, garlic, ginger, coriander, cumin, mango, spinach, cilantro]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [indian, dal, lentil, mango]
+    added_date: 2025-12-29
+
+  - id: gazpacho-summer-soup
+    file: gazpacho-summer-soup.md
+    time_minutes: 15
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 3
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [cucumber, bell-pepper, tomatoes, roasted-red-peppers, tomato-juice, salsa, cilantro, red-wine-vinegar]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [raw, cold-soup, summer, no-cook]
+    added_date: 2025-12-29
+
+  - id: watermelon-gazpacho
+    file: watermelon-gazpacho.md
+    time_minutes: 15
+    meal_type: [lunch, snack]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 6
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [watermelon, cucumber, bell-pepper, shallots, lime, mint]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [raw, cold-soup, summer, no-cook, refreshing]
+    added_date: 2025-12-29
+
+  - id: black-bean-and-butternut-squash-chili
+    file: black-bean-and-butternut-squash-chili.md
+    time_minutes: 30
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions]
+    complexity: low
+    servings: 5
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [onion, garlic, butternut-squash, black-beans, chili-powder, cumin, vegetable-broth, tomatoes, swiss-chard]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [chili, black-bean, butternut, hearty]
+    added_date: 2025-12-29
+
+  - id: crock-pot-mushroom-chili
+    file: crock-pot-mushroom-chili.md
+    time_minutes: 420
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [beans, onions, mushrooms]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [onion, garlic, bell-pepper, corn, zucchini, mushrooms, tomatoes, kidney-beans, chili-powder, cumin, oregano, cayenne]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [crock-pot, slow-cooker, chili, set-and-forget]
+    added_date: 2025-12-29
+
+  - id: goji-chili-stew
+    file: goji-chili-stew.md
+    time_minutes: 35
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions]
+    complexity: low
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [tomatoes, broccoli, onion, corn, goji-berries, zucchini, green-chilies, chili-powder, cumin, garlic, pinto-beans, black-beans, kidney-beans]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [chili, three-bean, goji, antioxidant]
+    added_date: 2025-12-29

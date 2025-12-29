@@ -13,8 +13,9 @@ workflowFile: '{workflow_path}/workflow.md'
 # Sidecar References
 productsFile: '{sidecar_path}/products-ar.yaml'
 substitutionsFile: '{sidecar_path}/substitutions.yaml'
-recipesIndexFile: '{sidecar_path}/recipes/index.yaml'
+masterIndexFile: '{sidecar_path}/recipes/index.yaml'
 recipesFolder: '{sidecar_path}/recipes'
+# Category index: '{sidecar_path}/recipes/{category}/_index.yaml'
 ---
 
 # Step 4: Finalize & Save
@@ -50,7 +51,7 @@ Normalize ingredient names, cross-reference against Argentine market products, g
 ## EXECUTION PROTOCOLS:
 
 - 🎯 Process ingredients and generate files
-- 💾 Write to sidecar files: recipe.md, index.yaml, products-ar.yaml
+- 💾 Write to sidecar files: recipe.md, category _index.yaml, master index.yaml, products-ar.yaml
 - 📖 Complete workflow with success message
 - ✅ This is the final step - no next step to load
 
@@ -123,7 +124,33 @@ ingredient_status:
 - `true` if ALL ingredients have status = verified
 - `false` if ANY ingredient is assumed or unavailable
 
-### 3. Generate Recipe ID
+### 3. Determine Recipe Category
+
+Infer the recipe category from `meal_type` and recipe characteristics:
+
+| meal_type | Category |
+|-----------|----------|
+| [breakfast] | breakfast |
+| [lunch, dinner] + soup/stew keywords | soups-stews |
+| [lunch, dinner] + salad keywords | salads |
+| [lunch, dinner] + main dish | mains |
+| [snack] | snacks |
+| [dessert] | desserts |
+| [base] | bases |
+
+**Store as:**
+- `primary_category` (e.g., "soups-stews") - where the recipe file lives
+- `secondary_categories` (optional array) - for recipes that fit multiple categories
+
+**Example:** A breakfast soup might have:
+```yaml
+primary_category: soups-stews
+secondary_categories: [breakfast]
+```
+
+Note: Recipe file is stored in `primary_category` folder only. Secondary categories are metadata for filtering.
+
+### 4. Generate Recipe ID
 
 Create a URL-safe slug from the title:
 
@@ -135,10 +162,11 @@ Create a URL-safe slug from the title:
 **Example:** "Kale & White Bean Stew" → "kale-white-bean-stew"
 
 **Check for ID collision:**
-- Search recipes/index.yaml for existing ID
+- Load `{recipesFolder}/{recipe_category}/_index.yaml` if it exists
+- Search for existing ID in that category
 - If collision, append number: "kale-white-bean-stew-2"
 
-### 4. Build Source Record
+### 5. Build Source Record
 
 Based on source_type from step 1:
 
@@ -157,9 +185,11 @@ source:
 | text | "Pasted text" |
 | user-created | "Original recipe" |
 
-### 5. Create Recipe Markdown File
+### 6. Create Recipe Markdown File
 
-Write to `{recipesFolder}/{recipe_id}.md`:
+Write to `{recipesFolder}/{recipe_category}/{recipe_id}.md`:
+
+**Ensure category folder exists:** Create `{recipesFolder}/{recipe_category}/` if it doesn't exist.
 
 ```markdown
 ---
@@ -190,13 +220,22 @@ type: {source_type}
 {source_reference}
 ```
 
-### 6. Update Recipes Index
+### 7. Update Category Index
 
-Append to `recipes/index.yaml`:
+Update the category-specific index at `{recipesFolder}/{recipe_category}/_index.yaml`:
 
+**If file doesn't exist, create it:**
+```yaml
+# {recipe_category}/_index.yaml
+category: {recipe_category}
+recipes: []
+```
+
+**Append to recipes array:**
 ```yaml
 - id: {recipe_id}
   file: {recipe_id}.md
+  secondary_categories: {array or omit if none}  # For cross-category filtering
   time_minutes: {time}
   meal_type: {array}
   kosher_category: {meat/dairy/parve}
@@ -219,13 +258,29 @@ Append to `recipes/index.yaml`:
   added_date: {today's date}
 ```
 
-### 7. Update Products Database
+### 8. Update Master Index
+
+Update the master index at `{masterIndexFile}`:
+
+**If category is new, add it to categories list:**
+```yaml
+categories:
+  - id: {recipe_category}
+    path: {recipe_category}/_index.yaml
+```
+
+**If category already exists in master index:**
+- No update needed (category already registered)
+
+Note: Recipe counts are computed dynamically by reading category `_index.yaml` files, not stored in master index (avoids count drift).
+
+### 9. Update Products Database
 
 If any new ingredients were added to products-ar.yaml in section 2:
 - Write the updated products-ar.yaml file
 - (Already prepared in section 2)
 
-### 8. Show Success Summary
+### 10. Show Success Summary
 
 Display completion message:
 
@@ -248,7 +303,7 @@ Display completion message:
 Ready to import another recipe, or type 'cook' to see what to make!
 ```
 
-### 9. Workflow Complete
+### 11. Workflow Complete
 
 This is the final step. The workflow is complete.
 
@@ -262,9 +317,11 @@ This is the final step. The workflow is complete.
 
 - Ingredients normalized via aliases
 - Products cross-referenced and missing ones added as 'assumed'
-- Recipe ID generated (unique, no collision)
-- Recipe markdown file created
-- Index entry added to recipes/index.yaml
+- Recipe category determined correctly
+- Recipe ID generated (unique within category, no collision)
+- Recipe markdown file created in correct category folder
+- Category _index.yaml updated with full recipe metadata
+- Master index.yaml updated with category count
 - Products-ar.yaml updated with new ingredients
 - Clear success message shown to user
 - Workflow completed
@@ -274,7 +331,9 @@ This is the final step. The workflow is complete.
 - Asking user questions (this step is autonomous)
 - Not normalizing ingredients
 - Not checking/updating products-ar.yaml
-- Creating duplicate recipe ID
+- Creating duplicate recipe ID within category
+- Writing to wrong category folder
+- Not updating both category index AND master index
 - Not showing success summary
 - Trying to load a next step (this is the final step)
 - Corrupting YAML files with invalid syntax

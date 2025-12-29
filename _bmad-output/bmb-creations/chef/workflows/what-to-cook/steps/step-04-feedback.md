@@ -16,7 +16,8 @@ reviewsFile: '{sidecar_path}/reviews.yaml'
 productsFile: '{sidecar_path}/products-ar.yaml'
 substitutionsFile: '{sidecar_path}/substitutions.yaml'
 preferencesFile: '{sidecar_path}/preferences.yaml'
-recipesIndexFile: '{sidecar_path}/recipes/index.yaml'
+masterIndexFile: '{sidecar_path}/recipes/index.yaml'
+recipesFolder: '{sidecar_path}/recipes'
 ---
 
 # Step 4: Cooking Feedback
@@ -89,13 +90,14 @@ When user says "done", "finished", "made it", etc.:
 **Update history.yaml:**
 ```yaml
 - recipe_id: [selected_id]
+  category: [recipe_category]  # Required for locating recipe file
   date: [today]
   status: cooked
   cooking_notes: [any notes from conversation]
 ```
 
 **Implicit ingredient verification:**
-- Get recipe ingredients from recipes/index.yaml
+- Get recipe ingredients from `{recipesFolder}/{category}/_index.yaml`
 - For each ingredient, update products-ar.yaml:
   - If status was `assumed` → change to `verified`
   - Set `last_verified: [today]`

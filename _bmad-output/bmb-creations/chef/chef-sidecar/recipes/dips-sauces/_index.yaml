@@ -1,0 +1,340 @@
+# Dips, Chips & Sauces - Recipe Index
+# Category: dips-sauces
+# Last updated: 2025-12-29
+
+recipes:
+  - id: black-bean-and-corn-salsa
+    file: dips-sauces/black-bean-and-corn-salsa.md
+    time_minutes: 15
+    meal_type: [snack, appetizer]
+    kosher_category: parve
+    g_bombs: [beans, onions]
+    complexity: low
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [black-beans, corn, tomatoes, bell-pepper, onion, garlic, jalapeno, cilantro, lime, cumin]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [mexican, salsa, party-friendly]
+    added_date: 2025-12-29
+
+  - id: fresh-tomato-salsa
+    file: dips-sauces/fresh-tomato-salsa.md
+    time_minutes: 10
+    meal_type: [snack, appetizer]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: low
+    servings: 6
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [tomatoes, red-onion, scallions, garlic, jalapeno, cilantro, lime]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [raw, quick, fresh]
+    added_date: 2025-12-29
+
+  - id: favorite-guacamole
+    file: dips-sauces/favorite-guacamole.md
+    time_minutes: 10
+    meal_type: [snack, appetizer]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: low
+    servings: 6
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [avocado, onion, tomato, garlic, jalapeno, lemon, cumin, cilantro, pepper]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [mexican, classic, quick]
+    added_date: 2025-12-29
+
+  - id: island-black-bean-dip
+    file: dips-sauces/island-black-bean-dip.md
+    time_minutes: 75
+    meal_type: [snack, appetizer]
+    kosher_category: parve
+    g_bombs: [beans, onions]
+    complexity: low
+    servings: 5
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [black-beans, salsa, scallions, red-wine-vinegar, red-onion, mango, red-pepper, cilantro]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [tropical, fruity, party-friendly]
+    added_date: 2025-12-29
+
+  - id: roasted-eggplant-hummus
+    file: dips-sauces/roasted-eggplant-hummus.md
+    time_minutes: 55
+    meal_type: [snack, appetizer]
+    kosher_category: parve
+    g_bombs: [beans, onions]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: false
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [eggplant, chickpeas, water, sesame-seeds, lemon, onion, garlic, paprika]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [hummus, middle-eastern, contains-eggplant]
+    added_date: 2025-12-29
+
+  - id: tuscan-white-bean-dip
+    file: dips-sauces/tuscan-white-bean-dip.md
+    time_minutes: 135
+    meal_type: [snack, appetizer]
+    kosher_category: parve
+    g_bombs: [beans, onions]
+    complexity: medium
+    servings: 5
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [white-beans, pine-nuts, garlic, balsamic-vinegar, rosemary, dried-tomatoes]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [italian, tuscan, make-ahead]
+    added_date: 2025-12-29
+
+  - id: mushroom-walnut-pate
+    file: dips-sauces/mushroom-walnut-pate.md
+    time_minutes: 225
+    meal_type: [snack, appetizer]
+    kosher_category: parve
+    g_bombs: [mushrooms, onions]
+    complexity: high
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [garlic, chia-seeds, walnuts, shallots, mushrooms, balsamic-vinegar, carrot, parsley, thyme, pepper]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [elegant, make-ahead, party-friendly]
+    added_date: 2025-12-29
+
+  - id: herbed-goat-cheese
+    file: dips-sauces/herbed-goat-cheese.md
+    time_minutes: 260
+    meal_type: [snack, appetizer]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: high
+    servings: 8
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: moderate
+    ingredients: [tofu, cashews, lemon, miso, nutritional-yeast, liquid-aminos, shallot, rosemary, thyme, basil, tarragon]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [cheese-substitute, make-ahead, contains-nutritional-yeast]
+    added_date: 2025-12-29
+
+  - id: pita-tortilla-crisps
+    file: dips-sauces/pita-tortilla-crisps.md
+    time_minutes: 20
+    meal_type: [snack]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 1
+    shabbat_friendly: false
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [whole-grain-tortilla, pita]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [chips, simple, dipper]
+    added_date: 2025-12-29
+
+  - id: kale-krinkle-chips
+    file: dips-sauces/kale-krinkle-chips.md
+    time_minutes: 55
+    meal_type: [snack]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: low
+    servings: 4
+    shabbat_friendly: false
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [kale, nutritional-yeast, onion-powder, garlic-powder, chili-powder, cashew-butter, water]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [chips, healthy-snack, contains-nutritional-yeast]
+    added_date: 2025-12-29
+
+  - id: brown-cremini-gravy
+    file: dips-sauces/brown-cremini-gravy.md
+    time_minutes: 20
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: [mushrooms, onions]
+    complexity: low
+    servings: 8
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: low
+    ingredients: [onion, garlic, cremini-mushrooms, whole-wheat-flour, arrowroot, nutritional-yeast, liquid-aminos, water, balsamic-vinegar, thyme, sage, pepper]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [gravy, sauce, contains-nutritional-yeast]
+    added_date: 2025-12-29
+
+  - id: tornado-tomato-sauce
+    file: dips-sauces/tornado-tomato-sauce.md
+    time_minutes: 45
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: false
+    pesach: true
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [red-bell-pepper, jalapeno, olive-oil, tomatoes, dried-tomatoes, onion, garlic, pepper, basil]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [tomato-sauce, roasted-peppers, versatile]
+    added_date: 2025-12-29
+
+  - id: blueberry-blast-sauce
+    file: dips-sauces/blueberry-blast-sauce.md
+    time_minutes: 15
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [shallots, garlic, blueberries, blueberry-vinegar, thyme, walnuts]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [fruity, unique, vegetable-topping]
+    added_date: 2025-12-29
+
+  - id: sesame-ginger-sauce
+    file: dips-sauces/sesame-ginger-sauce.md
+    time_minutes: 5
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [water, tahini, lemon, miso, ginger, dates, garlic, hot-pepper-flakes]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [asian-inspired, ginger, vegetable-topping]
+    added_date: 2025-12-29
+
+  - id: arugula-pesto
+    file: dips-sauces/arugula-pesto.md
+    time_minutes: 10
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: low
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [garlic, walnuts, white-balsamic-vinegar, water, nutritional-yeast, arugula, spinach]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [pesto, italian, versatile, contains-nutritional-yeast]
+    added_date: 2025-12-29
+
+  - id: nutritarian-pickling-juice
+    file: dips-sauces/nutritarian-pickling-juice.md
+    time_minutes: 2895
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [garlic, coriander-seeds, peppercorns, chili, bay-leaf, white-wine-vinegar, white-wine, water]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [pickling, preserving, make-ahead]
+    added_date: 2025-12-29

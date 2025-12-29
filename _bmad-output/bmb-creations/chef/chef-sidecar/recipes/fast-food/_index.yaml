@@ -1,0 +1,341 @@
+# Fast Food - Recipe Index
+# Category: fast-food
+# Burgers, Pizza, Wraps, Sandwiches
+# Last updated: 2025-12-29
+
+recipes:
+  - id: sunny-bean-burgers
+    file: fast-food/sunny-bean-burgers.md
+    time_minutes: 45
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [beans, onions]
+    complexity: medium
+    servings: 2
+    shabbat_friendly: false
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [olive-oil, sunflower-seeds, kidney-beans, pinto-beans, onion, ketchup, wheat-germ, oats, chili-powder]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [burger, bean-burger, grillable]
+    added_date: 2025-12-29
+
+  - id: better-burgers
+    file: fast-food/better-burgers.md
+    time_minutes: 45
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [mushrooms, onions, greens]
+    complexity: medium
+    servings: 8
+    shabbat_friendly: false
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [oats, walnuts, water, tomato-paste, onion, garlic, mushrooms, basil, oregano, parsley, pepper, spinach]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [burger, mushroom-burger, batch-cooking]
+    added_date: 2025-12-29
+
+  - id: sweet-potato-black-bean-burgers
+    file: fast-food/sweet-potato-black-bean-burgers.md
+    time_minutes: 45
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [beans, onions]
+    complexity: medium
+    servings: 6
+    shabbat_friendly: false
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [cashews, pecans, black-beans, sweet-potato, red-onion, jalapeno, cilantro, garlic-powder, pepper, cider-vinegar, lime, nutritional-yeast, olive-oil]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [burger, bean-burger, sweet-potato, contains-nutritional-yeast]
+    added_date: 2025-12-29
+
+  - id: kyoto-mushroom-burgers
+    file: fast-food/kyoto-mushroom-burgers.md
+    time_minutes: 35
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [mushrooms, onions]
+    complexity: medium
+    servings: 7
+    shabbat_friendly: false
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [red-onion, portobello-mushrooms, carrots, zucchini, garlic, miso, brown-rice, sunflower-seeds, parsley, basil, bread-crumbs, olive-oil]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [burger, mushroom-burger, asian-inspired]
+    added_date: 2025-12-29
+
+  - id: bean-enchiladas
+    file: fast-food/bean-enchiladas.md
+    time_minutes: 25
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [beans, onions]
+    complexity: low
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [bell-pepper, onion, tomato-sauce, pinto-beans, black-beans, corn, chili-powder, cumin, onion-powder, cilantro, cayenne, corn-tortillas]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [mexican, enchiladas, quick]
+    added_date: 2025-12-29
+
+  - id: veg-head-bean-burrito
+    file: fast-food/veg-head-bean-burrito.md
+    time_minutes: 25
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [beans, onions]
+    complexity: medium
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [broccoli, cauliflower, carrots, bell-peppers, zucchini, onion, garlic, chili-powder, cumin, oregano, cashews, almonds, soy-milk, pinto-beans, tortillas, salsa]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [mexican, burrito, veggie-loaded]
+    added_date: 2025-12-29
+
+  - id: portobello-veggie-fajitas
+    file: fast-food/portobello-veggie-fajitas.md
+    time_minutes: 20
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [mushrooms, beans, onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: low
+    ingredients: [portobello-mushrooms, bell-peppers, yellow-squash, onion, serrano-chili, garlic, chili-powder, beans, cilantro, tortillas, salsa, avocado]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [mexican, fajitas, quick]
+    added_date: 2025-12-29
+
+  - id: roasted-vegetable-pizza
+    file: fast-food/roasted-vegetable-pizza.md
+    time_minutes: 35
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [mushrooms, greens, onions]
+    complexity: medium
+    servings: 2
+    shabbat_friendly: false
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [broccoli, bell-pepper, portobello-mushroom, garlic-powder, balsamic-vinegar, oregano, spinach, pasta-sauce, tortillas, pita, nondairy-cheese]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [pizza, roasted-vegetables, italian]
+    added_date: 2025-12-29
+
+  - id: italian-stuffer
+    file: fast-food/italian-stuffer.md
+    time_minutes: 40
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [dried-tomatoes, lettuce, parsley, walnuts, italian-seasoning, tomato-paste, garlic-powder, red-onion, pita, tortillas]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [italian, sandwich, pita]
+    added_date: 2025-12-29
+
+  - id: popeye-pitas-with-mediterranean-tomato-spread
+    file: fast-food/popeye-pitas-with-mediterranean-tomato-spread.md
+    time_minutes: 15
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [beans, greens, onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [white-beans, pine-nuts, dried-tomatoes, garlic, balsamic-vinegar, rosemary, pita, tomato, red-onion, arugula, spinach, avocado]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [mediterranean, pita, spinach]
+    added_date: 2025-12-29
+
+  - id: portobello-red-pepper-sandwich
+    file: fast-food/portobello-red-pepper-sandwich.md
+    time_minutes: 30
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [mushrooms, greens, onions]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: false
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [portobello-mushrooms, red-onion, pita, arugula, roasted-red-peppers, tahini, water, lemon, liquid-aminos, dates, garlic]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [sandwich, mushroom, roasted-peppers]
+    added_date: 2025-12-29
+
+  - id: vegetable-garbanzo-wraps
+    file: fast-food/vegetable-garbanzo-wraps.md
+    time_minutes: 15
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [beans, greens]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [chickpeas, tomato, avocado, cucumber, romaine-lettuce, white-balsamic-vinegar, tortillas, tahini]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [wrap, chickpea, quick]
+    added_date: 2025-12-29
+
+  - id: black-bean-lettuce-bundles
+    file: fast-food/black-bean-lettuce-bundles.md
+    time_minutes: 15
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [beans, greens, onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [black-beans, avocado, bell-pepper, green-onions, cilantro, salsa, lime, garlic, cumin, romaine-lettuce]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [lettuce-wrap, mexican, low-carb]
+    added_date: 2025-12-29
+
+  - id: collard-dijon-wraps
+    file: fast-food/collard-dijon-wraps.md
+    time_minutes: 40
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, onions]
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [prunes, dijon-mustard, red-wine-vinegar, carrots, cucumber, red-onion, bell-pepper, collard-greens, romaine-lettuce, tomato, avocado]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [lettuce-wrap, collard-wrap, low-carb]
+    added_date: 2025-12-29
+
+  - id: korean-vegetable-and-mushroom-lettuce-wraps
+    file: fast-food/korean-vegetable-and-mushroom-lettuce-wraps.md
+    time_minutes: 30
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [mushrooms, greens, onions]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [onion, broccoli, carrots, bell-peppers, bok-choy, shiitake-mushrooms, porcini-mushrooms, cremini-mushrooms, spinach, almond-butter, soy-milk, sesame-seeds, dates, garlic, ginger, hot-pepper-flakes, lettuce]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [korean, lettuce-wrap, asian-inspired]
+    added_date: 2025-12-29
+
+  - id: spiced-sweet-potato-cornbread
+    file: fast-food/spiced-sweet-potato-cornbread.md
+    time_minutes: 45
+    meal_type: [breakfast, snack]
+    kosher_category: parve
+    g_bombs: []
+    complexity: medium
+    servings: 10
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [cornmeal, oat-flour, baking-powder, dates, coconut-milk, shredded-coconut, sweet-potato, flax-seeds, cinnamon, nutmeg, cloves, corn]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [bread, cornbread, sweet-potato, baked]
+    added_date: 2025-12-29
