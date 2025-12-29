@@ -1,7 +1,29 @@
 # Miriam - Recipe Index
 # All recipes with metadata for filtering and recommendations
 
-recipes: []
+recipes:
+  - id: kale-and-white-bean-soup
+    file: kale-and-white-bean-soup.md
+    time_minutes: 30
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions]
+    complexity: low
+    servings: 4
+    cuisine_style: comfort
+    audience: [solo]
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [kale, white-beans, onion, garlic, vegetable-broth, cumin, black-pepper]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat for Life, page 287"
+    tags: [one-pot, quick, soup]
+    added_date: 2025-12-28
 # Example entry:
 #  - id: kale-bean-stew
 #    file: kale-bean-stew.md
