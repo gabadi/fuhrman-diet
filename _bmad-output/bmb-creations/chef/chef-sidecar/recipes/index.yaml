@@ -1,50 +1,53 @@
-# Miriam - Recipe Index
-# All recipes with metadata for filtering and recommendations
+# Miriam - Master Recipe Index
+# Category list for lazy-loading per-category indexes
 
-recipes:
-  - id: kale-and-white-bean-soup
-    file: kale-and-white-bean-soup.md
-    time_minutes: 30
-    meal_type: [lunch, dinner]
-    kosher_category: parve
-    g_bombs: [greens, beans, onions]
-    complexity: low
-    servings: 4
-    cuisine_style: comfort
-    audience: [solo]
-    shabbat_friendly: true
-    pesach: true
-    attention_level: medium
-    cognitive_load: simple
-    ingredients: [kale, white-beans, onion, garlic, vegetable-broth, cumin, black-pepper]
-    ingredients_verified: false
-    needs_review: true
-    source:
-      type: book
-      reference: "Eat for Life, page 287"
-    tags: [one-pot, quick, soup]
-    added_date: 2025-12-28
-# Example entry:
-#  - id: kale-bean-stew
-#    file: kale-bean-stew.md
-#    time_minutes: 35
-#    meal_type: [lunch, dinner]
-#    kosher_category: parve
-#    g_bombs: [greens, beans, onions]
-#    complexity: low
-#    servings: 4
-#    cuisine_style: comfort
-#    audience: [family, solo]
-#    shabbat_friendly: true
-#    pesach: false
-#    attention_level: low      # low (hands-off), medium, high (active)
-#    cognitive_load: simple    # simple, moderate, complex
-#    context: []               # sweet-craving, after-dinner, etc.
-#    satisfies_craving: null   # ice-cream, chocolate, etc.
-#    ingredients: [kale, white-beans, onion, garlic, vegetable-broth]
-#    ingredients_verified: true
-#    source:
-#      type: book
-#      title: "Eat for Life"
-#      page: 234
-#    tags: [one-pot, quick]
+categories:
+  - id: smoothies
+    name: Smoothies & Juices
+    description: Smoothies, blended salads, and fresh juices for quick nutrition
+    index_file: smoothies/_index.yaml
+
+  - id: breakfast
+    name: Breakfast
+    description: Morning meals, oatmeal, puddings, bars, and savory options
+    index_file: breakfast/_index.yaml
+
+  - id: dressings
+    name: Salad Dressings
+    description: Nut-based, creamy, and fruity dressings without refined oils
+    index_file: dressings/_index.yaml
+
+  - id: dips-sauces
+    name: Dips, Chips & Sauces
+    description: Bean dips, salsas, pestos, gravies, and versatile sauces
+    index_file: dips-sauces/_index.yaml
+
+  - id: salads
+    name: Salads
+    description: Fresh salads, slaws, warm salads, and grain-based salads
+    index_file: salads/_index.yaml
+
+  - id: main-dishes
+    name: Main Dishes
+    description: Hearty entrees including curries, stir-fries, lasagnas, and stuffed vegetables
+    index_file: main-dishes/_index.yaml
+
+  - id: fast-food
+    name: Fast Food
+    description: Burgers, pizza, wraps, sandwiches, and quick meals
+    index_file: fast-food/_index.yaml
+
+  - id: soups-stews
+    name: Soups & Stews
+    description: Hearty soups, stews, chilis, and broths
+    index_file: soups-stews/_index.yaml
+
+  - id: desserts
+    name: Desserts
+    description: Cookies, cakes, pies, puddings, ice creams, and sorbets
+    index_file: desserts/_index.yaml
+
+  - id: nonvegan
+    name: Nonvegan
+    description: Recipes with eggs, fish, or meat (limit to 2 servings/week)
+    index_file: nonvegan/_index.yaml

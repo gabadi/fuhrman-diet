@@ -1,0 +1,509 @@
+# Desserts - Recipe Index
+# Category: desserts
+# Cookies, Cakes, Pies, Puddings, Ice Creams, Sorbets
+# Last updated: 2025-12-29
+
+recipes:
+  - id: apple-berrynut-bites
+    file: desserts/apple-berrynut-bites.md
+    time_minutes: 90
+    meal_type: [dessert, snack]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: medium
+    servings: 12
+    shabbat_friendly: false
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [dried-apples, soy-milk, strawberries, oatmeal, pecans, brazil-nuts, chia-seeds, spinach, coconut, cinnamon, nutmeg, dates]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [baked, fruit, nuts]
+    added_date: 2025-12-29
+
+  - id: chia-cookies
+    file: desserts/chia-cookies.md
+    time_minutes: 150
+    meal_type: [dessert, snack]
+    kosher_category: parve
+    g_bombs: []
+    complexity: medium
+    servings: 20
+    shabbat_friendly: false
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [currants, oats, coconut, chia-seeds, cinnamon, almond-butter, applesauce, vanilla]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [cookies, healthy, batch-cooking]
+    added_date: 2025-12-29
+
+  - id: goji-berry-walnut-squares
+    file: desserts/goji-berry-walnut-squares.md
+    time_minutes: 45
+    meal_type: [dessert, snack]
+    kosher_category: parve
+    g_bombs: []
+    complexity: medium
+    servings: 15
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [oats, walnuts, almonds, cinnamon, dates, water, banana, vanilla, goji-berries, dark-chocolate]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [brownies, chocolate, superfood]
+    added_date: 2025-12-29
+
+  - id: sweet-potato-peanut-cookies
+    file: desserts/sweet-potato-peanut-cookies.md
+    time_minutes: 35
+    meal_type: [dessert, snack]
+    kosher_category: parve
+    g_bombs: [beans]
+    complexity: medium
+    servings: 12
+    shabbat_friendly: false
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [chia-seeds, flax-seeds, white-beans, peanut-butter, bananas, sweet-potato, dates, cinnamon, nutmeg, vanilla, whole-wheat-flour, baking-powder, apricots]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [cookies, peanut-butter, sweet-potato]
+    added_date: 2025-12-29
+
+  - id: fudgy-black-bean-brownies
+    file: desserts/fudgy-black-bean-brownies.md
+    time_minutes: 100
+    meal_type: [dessert, snack]
+    kosher_category: parve
+    g_bombs: [beans]
+    complexity: low
+    servings: 16
+    shabbat_friendly: false
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [black-beans, dates, almond-butter, vanilla, cocoa-powder, chia-seeds]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [brownies, chocolate, bean-based]
+    added_date: 2025-12-29
+
+  - id: banana-oat-bars
+    file: desserts/banana-oat-bars.md
+    time_minutes: 40
+    meal_type: [dessert, snack, breakfast]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 8
+    shabbat_friendly: false
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [oats, coconut, raisins, dates, walnuts, bananas, apple, flax-seeds]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [bars, oat, banana]
+    added_date: 2025-12-29
+
+  - id: caras-apple-strudel
+    file: desserts/caras-apple-strudel.md
+    time_minutes: 70
+    meal_type: [dessert]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 4
+    shabbat_friendly: false
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [soy-milk, vanilla, cinnamon, apples, raisins, oats, walnuts, flax-seeds]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [baked, apple, strudel]
+    added_date: 2025-12-29
+
+  - id: healthy-chocolate-cake
+    file: desserts/healthy-chocolate-cake.md
+    time_minutes: 75
+    meal_type: [dessert]
+    kosher_category: parve
+    g_bombs: []
+    complexity: high
+    servings: 16
+    shabbat_friendly: false
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [whole-wheat-flour, baking-powder, baking-soda, dates, pineapple, banana, applesauce, beets, carrots, zucchini, cocoa-powder, currants, walnuts, water, vanilla, macadamia-nuts, cashews, brazil-nuts, soy-milk]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [cake, chocolate, special-occasion, contains-beets]
+    added_date: 2025-12-29
+
+  - id: coconut-carrot-cream-pie
+    file: desserts/coconut-carrot-cream-pie.md
+    time_minutes: 90
+    meal_type: [dessert]
+    kosher_category: parve
+    g_bombs: []
+    complexity: high
+    servings: 8
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [dried-apples, dried-apricots, dessert-wine, apples, raisins, walnuts, carrots, zucchini, beets, coconut, cinnamon, nutmeg, oats, almonds, dates, chia-seeds, vanilla-beans, macadamia-nuts, soy-milk]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [pie, carrot, special-occasion, contains-beets]
+    added_date: 2025-12-29
+
+  - id: pumpkin-pie-with-almond-crust
+    file: desserts/pumpkin-pie-with-almond-crust.md
+    time_minutes: 90
+    meal_type: [dessert]
+    kosher_category: parve
+    g_bombs: []
+    complexity: high
+    servings: 8
+    shabbat_friendly: false
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [almonds, chia-seeds, dates, pumpkin, raisins, cinnamon, ginger, nutmeg, arrowroot, tofu, cashews, soy-milk]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [pie, pumpkin, holiday]
+    added_date: 2025-12-29
+
+  - id: pineapple-strawbana-pie
+    file: desserts/pineapple-strawbana-pie.md
+    time_minutes: 150
+    meal_type: [dessert]
+    kosher_category: parve
+    g_bombs: []
+    complexity: medium
+    servings: 8
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [almonds, walnuts, dates, apple, bananas, kiwis, pineapple, strawberries, soy-milk]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [pie, frozen, tropical, raw]
+    added_date: 2025-12-29
+
+  - id: no-bake-key-lime-pie
+    file: desserts/no-bake-key-lime-pie.md
+    time_minutes: 260
+    meal_type: [dessert]
+    kosher_category: parve
+    g_bombs: []
+    complexity: medium
+    servings: 12
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [walnuts, coconut, oats, dates, key-limes, cashew-butter, avocados]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [pie, no-bake, lime, raw]
+    added_date: 2025-12-29
+
+  - id: mango-pudding
+    file: desserts/mango-pudding.md
+    time_minutes: 130
+    meal_type: [dessert]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 3
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [almonds, mangoes, banana, dates, coconut, vanilla, currants, cinnamon]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [pudding, tropical, raw]
+    added_date: 2025-12-29
+
+  - id: persimmon-pudding
+    file: desserts/persimmon-pudding.md
+    time_minutes: 30
+    meal_type: [dessert]
+    kosher_category: parve
+    g_bombs: []
+    complexity: medium
+    servings: 6
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: low
+    ingredients: [mangosteen-vinegar, water, arrowroot, persimmons]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [pudding, seasonal, elegant]
+    added_date: 2025-12-29
+
+  - id: avocado-chocolate-pudding
+    file: desserts/avocado-chocolate-pudding.md
+    time_minutes: 10
+    meal_type: [dessert]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [avocado, soy-milk, cocoa-powder, dates, vanilla]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [pudding, chocolate, quick, raw]
+    added_date: 2025-12-29
+
+  - id: berry-yogurt
+    file: desserts/berry-yogurt.md
+    time_minutes: 10
+    meal_type: [dessert, breakfast]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [blueberries, blackberries, strawberries, soy-milk, flax-seeds, chia-seeds, dates]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [yogurt, berry, quick, raw]
+    added_date: 2025-12-29
+
+  - id: pomegranate-poached-pears
+    file: desserts/pomegranate-poached-pears.md
+    time_minutes: 45
+    meal_type: [dessert]
+    kosher_category: parve
+    g_bombs: []
+    complexity: high
+    servings: 4
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [pears, pomegranate-juice, cinnamon, cloves, goji-berries, blueberries, soy-milk, dates, macadamia-nuts, cocoa-powder, vanilla, turmeric, raspberries]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [poached, elegant, special-occasion]
+    added_date: 2025-12-29
+
+  - id: banana-walnut-ice-cream
+    file: desserts/banana-walnut-ice-cream.md
+    time_minutes: 10
+    meal_type: [dessert]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [bananas, soy-milk, walnuts, vanilla]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [ice-cream, banana, quick]
+    added_date: 2025-12-29
+
+  - id: chocolate-cherry-ice-cream
+    file: desserts/chocolate-cherry-ice-cream.md
+    time_minutes: 10
+    meal_type: [dessert]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [soy-milk, cocoa-powder, dates, cherries, vanilla-bean]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [ice-cream, chocolate, cherry, quick]
+    added_date: 2025-12-29
+
+  - id: fuhrman-fudgesicles
+    file: desserts/fuhrman-fudgesicles.md
+    time_minutes: 130
+    meal_type: [dessert, snack]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 3
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [bananas, cashews, cocoa-powder, vanilla]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [popsicle, chocolate, frozen]
+    added_date: 2025-12-29
+
+  - id: peach-apricot-sorbet
+    file: desserts/peach-apricot-sorbet.md
+    time_minutes: 5
+    meal_type: [dessert]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [peaches, soy-milk, dried-apricots]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [sorbet, peach, quick]
+    added_date: 2025-12-29
+
+  - id: strawberry-pineapple-sorbet
+    file: desserts/strawberry-pineapple-sorbet.md
+    time_minutes: 15
+    meal_type: [dessert]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [dried-pineapple, orange-juice, strawberries]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [sorbet, strawberry, pineapple]
+    added_date: 2025-12-29
+
+  - id: red-velvet-sorbet
+    file: desserts/red-velvet-sorbet.md
+    time_minutes: 25
+    meal_type: [dessert]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: true
+    attention_level: low
+    cognitive_load: low
+    ingredients: [bananas, raspberries, cocoa-powder, dates]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [sorbet, chocolate, raspberry]
+    added_date: 2025-12-29
+
+  - id: chocolate-dip
+    file: desserts/chocolate-dip.md
+    time_minutes: 10
+    meal_type: [dessert, snack]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: low
+    servings: 10
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [spinach, soy-milk, blueberries, dates, almonds, cocoa-powder, vanilla]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [dip, chocolate, fruit-dip, quick]
+    added_date: 2025-12-29

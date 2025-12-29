@@ -1,0 +1,445 @@
+# Miriam - Salads Recipe Index
+# Full metadata for filtering and recommendations
+
+category: salads
+recipes:
+  - id: mixed-greens-and-strawberry-salad
+    file: mixed-greens-and-strawberry-salad.md
+    time_minutes: 15
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, berries, seeds]
+    complexity: low
+    servings: 3
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [cashews, soy-milk, apple, currants, romaine, iceberg, spinach, strawberries]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [strawberry, mixed-greens, quick]
+    added_date: 2025-12-29
+
+  - id: shredded-brussels-sprouts-salad
+    file: shredded-brussels-sprouts-salad.md
+    time_minutes: 10
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [garlic, brussels-sprouts, walnuts, raisins, nutritional-yeast]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [brussels-sprouts, warm, quick]
+    added_date: 2025-12-29
+
+  - id: apple-bok-choy-salad
+    file: apple-bok-choy-salad.md
+    time_minutes: 15
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, onions, seeds]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [bok-choy, apple, carrot, red-onion, soy-milk, cashews, balsamic-vinegar, raisins, dijon]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [asian-inspired, apple, crunchy]
+    added_date: 2025-12-29
+
+  - id: spiced-pumpkin-seed-cabbage-salad
+    file: spiced-pumpkin-seed-cabbage-salad.md
+    time_minutes: 20
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, seeds]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [soy-milk, apple, cashews, vinegar, currants, sesame-seeds, cabbage, carrot, bell-pepper, pumpkin-seeds, sunflower-seeds, parsley]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [cabbage, pumpkin-seeds, meal-prep]
+    added_date: 2025-12-29
+
+  - id: orange-sesame-micro-salad
+    file: orange-sesame-micro-salad.md
+    time_minutes: 15
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, onions, seeds]
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [fennel, carrot, celery, cabbage, red-onion, cauliflower, daikon, orange, lemon, sesame-seeds]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [raw, food-processor, meal-prep]
+    added_date: 2025-12-29
+
+  - id: super-slaw
+    file: super-slaw.md
+    time_minutes: 15
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: low
+    servings: 3
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [tofu, soy-milk, rice-vinegar, dates, lemon, pecans, apples, cabbage, beets, carrots, raisins]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [slaw, colorful, crunchy]
+    added_date: 2025-12-29
+
+  - id: dijon-vinaigrette-asparagus
+    file: dijon-vinaigrette-asparagus.md
+    time_minutes: 20
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, onions, seeds]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [asparagus, balsamic-vinegar, walnuts, raisins, dijon, garlic, red-onion, pine-nuts]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [asparagus, elegant, spring]
+    added_date: 2025-12-29
+
+  - id: marinated-mushroom-salad
+    file: marinated-mushroom-salad.md
+    time_minutes: 30
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, mushrooms]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [mushrooms, balsamic-vinegar, walnuts, raisins, dijon, garlic, shallot, bell-pepper, thyme, spinach, arugula]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [mushroom, marinated, warm]
+    added_date: 2025-12-29
+
+  - id: roasted-beets-and-asparagus-salad
+    file: roasted-beets-and-asparagus-salad.md
+    time_minutes: 75
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [vinegar, arrowroot, beets, greens, asparagus, walnuts, dill]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook (Chef James Rohrbacher)"
+    tags: [roasted, beets, elegant, chef-recipe]
+    added_date: 2025-12-29
+
+  - id: quinoa-mango-salad
+    file: quinoa-mango-salad.md
+    time_minutes: 25
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [quinoa, cucumber, mango, tomatoes, basil, balsamic-vinegar, chickpeas, greens]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [quinoa, mango, summer, protein]
+    added_date: 2025-12-29
+
+  - id: three-bean-mango-salad
+    file: three-bean-mango-salad.md
+    time_minutes: 20
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions]
+    complexity: low
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [cannellini-beans, kidney-beans, chickpeas, mango, red-onion, bell-pepper, parsley, cider-vinegar, almonds, raisins, mustard, oregano, greens]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [bean-salad, mango, protein, meal-prep]
+    added_date: 2025-12-29
+
+  - id: warm-braised-belgian-endive-salad
+    file: warm-braised-belgian-endive-salad.md
+    time_minutes: 35
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, onions]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [vinegar, arrowroot, carrots, onions, celery, white-wine, belgian-endive, oranges, walnuts]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook (Chef James Rohrbacher)"
+    tags: [warm, endive, elegant, chef-recipe]
+    added_date: 2025-12-29
+
+  - id: jamaican-jerk-vegetable-salad
+    file: jamaican-jerk-vegetable-salad.md
+    time_minutes: 20
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, onions, mushrooms]
+    complexity: low
+    servings: 4
+    shabbat_friendly: false
+    pesach: true
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [thyme, cinnamon, allspice, pepper, cayenne, zucchini, onion, bell-pepper, portobello-mushrooms, balsamic-vinegar, mango, greens]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [jamaican, spicy, warm, caribbean]
+    added_date: 2025-12-29
+
+  - id: chickpea-tuno-salad
+    file: chickpea-tuno-salad.md
+    time_minutes: 40
+    meal_type: [lunch]
+    kosher_category: parve
+    g_bombs: [beans, onions]
+    complexity: medium
+    servings: 5
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [chickpeas, almonds, lemon, kelp, tofu, vinegar, mustard, nutritional-yeast, celery, green-onions, bell-pepper, peas]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook (Chef James Rohrbacher)"
+    tags: [tuna-alternative, protein, lunch-prep, chef-recipe]
+    added_date: 2025-12-29
+
+  - id: beluga-lentil-escabeche
+    file: beluga-lentil-escabeche.md
+    time_minutes: 130
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, seeds]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: moderate
+    ingredients: [vinegar, garlic, fennel-seeds, chili, parsnips, bell-pepper, beluga-lentils, arugula, carrot, dried-fruit, sunflower-seeds]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook (Executive Chef Martin Oswald)"
+    tags: [spanish, lentils, marinated, chef-recipe]
+    added_date: 2025-12-29
+
+  - id: wild-rodeo-salad
+    file: wild-rodeo-salad.md
+    time_minutes: 20
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [beans, onions]
+    complexity: low
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: simple
+    ingredients: [corn, pinto-beans, black-beans, bell-pepper, scallions, jalapeno, lime, rice-vinegar, cumin, chili-powder, garlic, oregano]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [southwestern, bean-salad, summer, crowd-pleaser]
+    added_date: 2025-12-29
+
+  - id: taco-salad-with-guacamole-dressing
+    file: taco-salad-with-guacamole-dressing.md
+    time_minutes: 20
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, beans, onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [avocado, tomato, bell-pepper, green-onions, cilantro, garlic, lime, nutritional-yeast, chili-powder, soy-milk, corn, romaine, red-onion, black-beans]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [mexican, taco, guacamole, filling]
+    added_date: 2025-12-29
+
+  - id: wilted-arugula-milanese
+    file: wilted-arugula-milanese.md
+    time_minutes: 15
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, onions, seeds]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: true
+    attention_level: medium
+    cognitive_load: simple
+    ingredients: [fennel, red-onion, garlic, orange-juice, arugula, pine-nuts]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [italian, wilted, warm, elegant]
+    added_date: 2025-12-29
+
+  - id: crazy-for-kale-salad
+    file: crazy-for-kale-salad.md
+    time_minutes: 30
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, onions, seeds]
+    complexity: medium
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [pumpkin-seeds, lemon, dijon, dates, kale, bell-pepper, onion, corn, tomatoes, cucumber, pine-nuts, raisins, hemp-seeds]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook (Talia Fuhrman)"
+    tags: [kale, massaged, family-recipe, popular]
+    added_date: 2025-12-29
+
+  - id: warm-spiced-butternut-squash-salad
+    file: warm-spiced-butternut-squash-salad.md
+    time_minutes: 30
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, seeds]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [garlic, shallots, apple-cider-vinegar, dijon, apple-juice, almond-butter, dates, parsley, sage, butternut-squash, cinnamon, cloves, allspice, cayenne, pumpkin-seeds, apples, spinach, kale]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [fall, roasted, warm, squash]
+    added_date: 2025-12-29
+
+  - id: ginger-poached-butternut-squash-salad
+    file: ginger-poached-butternut-squash-salad.md
+    time_minutes: 45
+    meal_type: [lunch, dinner]
+    kosher_category: parve
+    g_bombs: [greens, seeds]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: medium
+    cognitive_load: moderate
+    ingredients: [vegetable-stock, celery, onion, chili, ginger, butternut-squash, rice-vinegar, raisins, kale, tomatoes, basil, mint, garlic, cashews, bean-sprouts]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook (Chef Jack Hunt)"
+    tags: [poached, ginger, asian-inspired, chef-recipe]
+    added_date: 2025-12-29

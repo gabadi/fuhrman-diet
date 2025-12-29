@@ -1,0 +1,256 @@
+# Salad Dressings - Recipe Index
+# Category: dressings
+# Last updated: 2025-12-29
+
+recipes:
+  - id: almond-balsamic-vinaigrette
+    file: dressings/almond-balsamic-vinaigrette.md
+    time_minutes: 30
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: medium
+    servings: 6
+    shabbat_friendly: false
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [garlic, water, balsamic-vinegar, almonds, raisins, oregano, basil, onion-powder]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [roasted-garlic, vinaigrette, batch-friendly]
+    added_date: 2025-12-29
+
+  - id: nutritarian-caesar-dressing
+    file: dressings/nutritarian-caesar-dressing.md
+    time_minutes: 10
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: low
+    servings: 6
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [cashews, tofu, garlic, celery, water, lemon, miso, dijon-mustard, dates, kelp, nutritional-yeast, pepper]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [caesar, creamy, contains-nutritional-yeast]
+    added_date: 2025-12-29
+
+  - id: banana-walnut-dressing
+    file: dressings/banana-walnut-dressing.md
+    time_minutes: 5
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [bananas, walnuts, raisins, fruit-vinegar]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [sweet, fruity, quick]
+    added_date: 2025-12-29
+
+  - id: blueberry-pomegranate-dressing
+    file: dressings/blueberry-pomegranate-dressing.md
+    time_minutes: 5
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [blueberries, pomegranate-juice, cashews, sunflower-seeds, blueberry-vinegar]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [fruity, antioxidant, colorful]
+    added_date: 2025-12-29
+
+  - id: green-velvet-dressing
+    file: dressings/green-velvet-dressing.md
+    time_minutes: 5
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [water, lemon, sesame-seeds, parsley, dill, cashews, tarragon, soy-sauce, garlic]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [herb, green, creamy]
+    added_date: 2025-12-29
+
+  - id: ginger-almond-dressing
+    file: dressings/ginger-almond-dressing.md
+    time_minutes: 5
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: low
+    servings: 3
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [almonds, soy-milk, water, sesame-seeds, dates, garlic, ginger]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [asian-inspired, ginger, creamy]
+    added_date: 2025-12-29
+
+  - id: ten-thousand-island-dressing
+    file: dressings/ten-thousand-island-dressing.md
+    time_minutes: 10
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [cashew-butter, soy-milk, balsamic-vinegar, lemon, dill, onion-powder, garlic-powder, tomato-paste, dates, cucumber, onion]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [thousand-island, creamy, tangy]
+    added_date: 2025-12-29
+
+  - id: creamy-roasted-garlic-dressing
+    file: dressings/creamy-roasted-garlic-dressing.md
+    time_minutes: 30
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: medium
+    servings: 4
+    shabbat_friendly: false
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [garlic, soy-milk, almonds, pumpkin-seeds, dijon-mustard, nutritional-yeast, white-wine-vinegar, thyme]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [roasted-garlic, creamy, contains-nutritional-yeast]
+    added_date: 2025-12-29
+
+  - id: orange-peanut-dressing
+    file: dressings/orange-peanut-dressing.md
+    time_minutes: 5
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [oranges, rice-vinegar, peanut-butter, cashews, soy-sauce, ginger, garlic]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [asian-inspired, peanut, citrus]
+    added_date: 2025-12-29
+
+  - id: pesto-salad-dressing
+    file: dressings/pesto-salad-dressing.md
+    time_minutes: 5
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: low
+    servings: 8
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [avocado, lemon, garlic, vegetable-juice, pine-nuts, basil]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [pesto, italian, basil]
+    added_date: 2025-12-29
+
+  - id: russian-fig-dressing
+    file: dressings/russian-fig-dressing.md
+    time_minutes: 5
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: []
+    complexity: low
+    servings: 2
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [pasta-sauce, almonds, sunflower-seeds, fig-vinegar, raisins]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [russian, tangy, batch-friendly]
+    added_date: 2025-12-29
+
+  - id: guacamole-dressing
+    file: dressings/guacamole-dressing.md
+    time_minutes: 5
+    meal_type: [any]
+    kosher_category: parve
+    g_bombs: [onions]
+    complexity: low
+    servings: 4
+    shabbat_friendly: true
+    pesach: false
+    attention_level: low
+    cognitive_load: low
+    ingredients: [avocado, tomato, bell-pepper, green-onions, cilantro, garlic, lime, nutritional-yeast, chili-powder, cayenne, soy-milk]
+    ingredients_verified: false
+    needs_review: true
+    source:
+      type: book
+      reference: "Eat to Live Cookbook"
+    tags: [mexican, guacamole, creamy, contains-nutritional-yeast]
+    added_date: 2025-12-29

@@ -58,8 +58,9 @@ All state is managed through sidecar files in the chef-sidecar folder:
 | `preferences.yaml` | User preferences including compliance_level |
 | `products-ar.yaml` | Argentine market product database |
 | `substitutions.yaml` | Ingredient aliases and swaps |
-| `recipes/index.yaml` | Recipe library index |
-| `recipes/*.md` | Individual recipe files |
+| `recipes/index.yaml` | Master recipe index (category list) |
+| `recipes/{category}/_index.yaml` | Per-category recipe indexes with full metadata |
+| `recipes/{category}/*.md` | Individual recipe files organized by category |
 
 ---
 
@@ -79,7 +80,7 @@ Load sidecar files from `{sidecar_path}`:
 - `preferences.yaml` - for compliance_level setting
 - `products-ar.yaml` - for ingredient cross-referencing
 - `substitutions.yaml` - for ingredient aliases
-- `recipes/index.yaml` - for duplicate detection
+- `recipes/index.yaml` - master index for category list and duplicate detection
 
 ### 3. First Step Execution
 
